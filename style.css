@@ -67,18 +67,48 @@ padding-top: 6px;
 }
 .centercolumns
 {  padding-top: 35px;
-   
+   display:flex ;
+   flex-direction: column;
     color:orange
 }
-
-
-
-
-
-
- .SearchCategory
+.SearchCategory
  {
      width: 200px;
      height: 60px;
+     position: relative;
+     top: 35px;
  }
+ .secondcolumn
+ {
+    position: relative; 
+    top:25px ;
+    left: 25px;
+  
+
+ }
+ .secondcolumn>h1
+ {
+     padding-bottom: 10px;
+ }
+.secondicons
+{  
+    color: white;
+    background-color:#ECA012 ;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    position: relative;
+    top: 30px;
+    left: 60px;  
+
+}
+.world
+{
+    width:20px ;
+    height: 20px;
+    position: relative;
+    left: 5px;
+    top: 3px;
+    
+}
 
