@@ -1,0 +1,32 @@
+@media screen and (min-width:1201px) and (max-width:1400px)
+{
+
+}
+@media screen and (min-width:993px) and (max-width:1200px)
+{
+
+}
+@media screen and (min-width:577px) and (max-width:992px)
+{
+
+}
+@media screen and  (max-width:576px)
+{
+.footercontainer
+{   width: 50%;
+   
+    
+    
+}
+.firstcolumnword
+{  display: flex;
+    justify-content: flex-start;
+   font-size:10px;
+}
+.firstcolumnword>p
+{  
+    display:none;
+
+}
+}
+
