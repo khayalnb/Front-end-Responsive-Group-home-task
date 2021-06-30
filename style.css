@@ -1,4 +1,118 @@
 *{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.footercontainer
+{
+  background-image: url("image/pngtree-abstract-pastel-yellow-watercolor-background-image_403180.jpg");
+   width: 100%;
+   height: 200px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+
+}
+
+.firstcolumnword
+{  
+    
+    padding-top: 40px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    color:rgba(0, 0, 0, 0.712)
+    
+
+}
+.firstcolumnword>p
+{
+
+    height: 80px;
+    width: 250px;
+padding-top: 5px;
+border-bottom: black 1px solid;
+
+}
+.firstcolumnicon
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    position: relative;
+    top:15px;
+    left: 85px;
+    
+    
+}
+.footericon
+{   
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: #eca012;
+    border-radius: 30px;
+}
+.sosial
+{
+display: flex;
+justify-content: center;
+padding-top: 6px;
+
+}
+.centercolumns
+{  padding-top: 35px;
+   display:flex ;
+   flex-direction: column;
+    color:orange
+}
+.SearchCategory
+ {
+     width: 200px;
+     height: 60px;
+     position: relative;
+     top: 35px;
+ }
+ .secondcolumn
+ {
+    position: relative; 
+    top:25px ;
+    left: 25px;
+  
+
+ }
+ .secondcolumn>h1
+ {
+     padding-bottom: 10px;
+ }
+.secondicons
+{  
+    color: white;
+    background-color:#ECA012 ;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    position: relative;
+    top: 30px;
+    left: 60px;  
+
+}
+.world
+{
+    width:20px ;
+    height: 20px;
+    position: relative;
+    left: 5px;
+    top: 3px;
+    
+}
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
